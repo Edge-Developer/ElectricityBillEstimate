@@ -1,0 +1,86 @@
+<resources>
+    <string name="app_name">Electricity Bill Calculator</string>
+    <string-array name="devices">
+
+        <item>Item X</item>
+        <item>Laptop</item>
+        <item>Bulb</item>
+        <item>TV</item>
+        <item>Hot Plate</item>
+        <item>Iron</item>
+        <item>Fridge</item>
+        <!--
+        <item>Toaster</item>
+        <item>Water Dispenser</item>
+        <item>Air Conditioner</item>
+        <item>Micro Wave</item>
+        <item>Blender</item>
+        <item>Electric Kettle</item>
+        <item>Well Pump</item>
+        <item>Vacuum Cleaner</item>
+        <item>Hair Dryer</item>
+        <item>Oven</item>
+        <item>PhotoCopy Machine</item>
+        <item>Printer</item>-->
+
+
+    </string-array>
+
+    <string-array name="discos">
+
+        <item>Abuja</item>
+        <item>Benin</item>
+        <item>Eko</item>
+        <item>Enugu</item>
+        <item>Ibadan</item>
+        <item>Ikeja</item>
+        <item>Port Harcourt</item>
+        <item>Jos</item>
+        <item>Kaduna</item>
+        <item>Kano</item>
+        <item>Yola</item>
+
+    </string-array>
+
+    <string-array name="tariffs">
+        <item>R1</item>
+        <item>R2</item>
+        <item>R2A</item>
+        <item>R2B</item>
+        <item>R2S</item>
+        <item>R2T</item>
+        <item>R2 SP</item>
+        <item>R2 TP</item>
+        <item>R3</item>
+        <item>R4</item>
+        <item>C1</item>
+        <item>C1S</item>
+        <item>C1T</item>
+        <item>C2</item>
+        <item>C3</item>
+        <item>D1</item>
+        <item>D1S</item>
+        <item>D1T</item>
+        <item>D2</item>
+        <item>D3</item>
+        <item>A1</item>
+        <item>A1S</item>
+        <item>A1T</item>
+        <item>A2</item>
+        <item>A3</item>
+        <item>S1</item>
+        <item>L1</item>
+    </string-array>
+    <string-array name="hours_or_mins">
+        <item>Hr</item>
+        <item>Min</item>
+    </string-array>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="banner_ad_unit_id">ca-app-pub-9297690518647609/7642571371</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="howitworks"><b>Your Distribution Company:</b> You select the disco that is covering your area e.g. Ikeja disco for a resident of Surulere\n\n<b>Your Tariff:</b> You select the tariff class use by your disco for billing you e.g. R2 for Double Phase Residential Customer\n\n<b>Your Appliances:</b> You select your various appliances or You Manually Input your Appliance\n\n<b>Daily usuage:</b> this is the number of Hours you use a particular selected appliances \n\n<b>Add Appliance:</b> You \"Add\", so u can select other ones
+
+when you done you click calculate. (5% VAT inclusive with the current tariff rate).\n\nBe sincere when rating your consumption so you can have an accurate answer.
+    </string>
+</resources>

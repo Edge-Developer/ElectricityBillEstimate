@@ -1,0 +1,61 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="edgedeveloper.electricitybillestimate.HowItWorks">
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/jst1"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar1"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay"
+            android:minHeight="220dp"
+            android:weightSum="1">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="#fff"
+            style="@style/Base.TextAppearance.AppCompat.Large"
+            android:text="How It Works"
+            android:gravity="center"
+            android:layout_weight="1"/>
+        </android.support.v7.widget.Toolbar>
+    </android.support.design.widget.AppBarLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/jst1">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:textSize="18dp"
+                android:textColor="#181818"
+                android:text="@string/howitworks"
+                android:id="@+id/textView2"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:textSize="18dp"
+                android:textColor="#b71c1c"
+                android:text="DISCLAIMER\n\n1. This App Automatically Includes 5% VAT on the Total Cost of Energy Consumed\n\n2. This App Assumes you are Constantly Supplied with Electricity (24hrs a day), Hence you are only Required To Add Duration of Use of each Equipment/Appliance/Device\n\n3. The Correctness of your Total Bill Depends on the Accuracy of the Data Supplied"
+                android:id="@+id/text3"/>
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

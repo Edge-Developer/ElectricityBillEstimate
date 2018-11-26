@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "873327255711",
+    "firebase_url": "https://electricity-bill-calculator.firebaseio.com",
+    "project_id": "electricity-bill-calculator",
+    "storage_bucket": "electricity-bill-calculator.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:873327255711:android:dfa31ba6295768ab",
+        "android_client_info": {
+          "package_name": "edgedeveloper.electricitybillestimate"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "873327255711-i1ue1dpkl26824h1j00b9sh3svgm59v7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "edgedeveloper.electricitybillestimate",
+            "certificate_hash": "0EC0F0CFC9F9F2C17ECF10CEE378C4C41483E5C8"
+          }
+        },
+        {
+          "client_id": "873327255711-h16vamb61i6tcjkd3fhhcae52nhevaea.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCRALIb9GtD0AiY7Y9SC8ATsFk6ZWQ0rZE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "873327255711-h16vamb61i6tcjkd3fhhcae52nhevaea.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
